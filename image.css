@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+.flux{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 120px;
+}
+.clothing{
+    text-align: center;
+}
+.img{
+   width: 302px;
+   height: 300px;
+   border: 10px solid #ddd;
+   border-radius: 7px;
+   padding: 5px;
+   border-color: pink;
+   cursor: pointer;
+}
+.img:hover{
+    box-shadow: 0 0 2px 1px purple;
+}
+body{
+    background-color: peachpuff;
+    color: purple;
+}
+.whatsapp{
+    width: 35px;
+    height: 25px;
+   margin-right: 10px;
+   margin-left: 100px;
+}
+.instagram{
+    width: 35px;
+    height: 25px;
+    margin-left: 200px;
+
+}
+.twitter{
+    width: 35px;
+    height: 25px;
+    margin-left: 200px;
+}
+.git{
+    width: 35px;
+    height: 25px;
+    margin-left: 200px;
+}
+a{
+    font-size: larger;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    width: 1300px;
+    margin-left: 105px;
+}
+hr{
+    margin-top: 20px;
+    width: 85%;
+    margin-left: 117px;
+    border-color: red;
+}
+.clothing{
+    color: purple;
+    font-family: sans-serif;
+}
+@media (max-width:1024px){
+    .flux{
+        margin: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+        width: 180px;
+        margin-right: 10px;
+        margin-left: 40px;
+    }
+    hr{
+        margin-left: 40px;
+        width: 930px ;
+    }
+    .flex{
+        margin-left: 40px;
+        width: 930px;
+    }
+    .whatsapp{
+        margin-left: 80px;
+    }
+    .instagram{
+        margin-left: 50px;
+    }
+    .twitter{
+        margin-left: 50px;
+    }
+    .git{
+        margin-left: 50px;
+    }
+}
+@media (max-width:768px){
+    .flux{
+        margin-left: 80px;
+        
+        
+    }
+    .img{
+        width: 180px;
+        
+    }
+    }
+
+@media (max-width:425px){
+    .flux{
+        margin-left:10px ;
+        margin-right: 10px;
+    }
+    .img{
+        width: 100%;
+        display: inline;
+        width: 350px;
+        height: 300px;
+    }
+    hr{
+        text-align: center;
+        margin-left: 40px;
+        width: 330px;
+    }
+    .flex{
+        width: 350px;
+        display: inline-block;
+    }
+    .whatsapp{
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+    .twitter{
+     margin-left: 10px;
+
+    }
+    .instagram{
+       margin-left: 10px;
+    }
+    .git{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+}
